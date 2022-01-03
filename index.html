@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BOOTSTRAP 4</title>
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- JQUERY LIBRARY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<!-- POPPER JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<!-- BOOTSTRAP JAVASCRIPT -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60" style="position: relative;">
+
+	<div class="jumbotron jumbotron-fluid mb-0">
+		<div class="container">
+			<h1 class="display-3">Jumbotron</h1>
+			<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top justify-content-between">
+
+		<!-- Brand -->
+		<a href="#" class="navbar-brand">
+			<img src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c516.png">
+			Logotipo
+		</a>
+
+		<!-- Navbar Toggler -->
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-list">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<!-- Navbar Links -->
+		<div id="nav-list">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#section1" class="nav-link">Carousel</a>
+				</li>
+				<li class="nav-item">
+					<a href="#section2" class="nav-link">Personajes</a>
+				</li>
+				<li class="nav-item">
+					<a href="#section3" class="nav-link">Película</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+						Footer
+					</a>
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="#section41" class="dropdown-item">Contáctanos</a>
+						<div class="dropdown-divider"></div>
+						<a href="#section42" class="dropdown-item">Acerca de nosotros</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="container-fluid p-0">
+
+		
+
+		<div id="section1">
+			<div class="container mt-4 mb-4">
+				
+				<!-- Carousel -->
+				<div id="carousel" class="carousel" data-ride="carousel">
+					
+					<!-- Indicators -->
+					<ul class="carousel-indicators">
+						<li data-target="#carousel" class="active" data-slide-to="0"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+						<li data-target="#carousel" data-slide-to="3"></li>
+						<li data-target="#carousel" data-slide-to="4"></li>
+					</ul>
+
+					<!-- Images -->
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="images/ryomen-sukuna-1.jfif">
+							<div class="carousel-caption">
+								<h4>Ryomen Sukuna</h4>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/ryomen-sukuna-2.jfif">
+							<div class="carousel-caption">
+								<h4>Ryomen Sukuna</h4>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/ryomen-sukuna-3.jfif">
+							<div class="carousel-caption">
+								<h4>Ryomen Sukuna</h4>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/itadori-yuji-2.jfif">
+							<div class="carousel-caption">
+								<h4>Itadori Yuji</h4>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="images/jujustu-1.jfif">
+							<div class="carousel-caption">
+								<h4>Jujustu Kaisen</h4>
+							</div>
+						</div>
+					</div>
+
+					<!-- Controls -->
+					<a href="#carousel" class="carousel-control-prev" data-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a href="#carousel" class="carousel-control-next" data-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+
+				</div>
+
+			</div>
+		</div>
+
+		<div class="sep-70px"></div>
+
+		<div id="section2">
+			
+			<div class="container mt-4 mb-4">
+				
+				<h2 class="font-weight-bold display-4">
+					Personajes
+				</h2>
+
+				<div class="card-deck mt-4">
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHhUA9qqY9jD-wEeeg6DtyEzcIFB_l_88gOg&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Itadori Yuji</h4>
+							<p class="card-text text-muted">
+								Yuji Itadori es un personaje de la serie de manga y anime Jujutsu Kaisen. Yuji es un chamán de jujutsu de primer año en la Escuela Técnica de Magia del Área Metropolitana de Tokio.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVuCWfZpKtuBKF-oEIyIPIe2zZNMBdNVbGeA&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Megumi Fushiguro</h4>
+							<p class="card-text text-muted">
+								Megumi Fushiguro es uno de los protagonistas de la serie manga Jujutsu Kaisen. Es un estudiante de primer año del Colegio Técnico de Magia Metropolitana de Tokio.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzrudVuaD2q2MKmcUyzi7Arx2ZU69SB248_w&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Kugisaki Nobara</h4>
+							<p class="card-text text-muted">
+								Nobara Kugisaki es una de las protagonistas de la serie manga Jujutsu Kaisen. Es una estudiante de primer año del Colegio Técnico de Magia Metropolitana de Tokio, y compañera de Yuji Itadori y Megumi Fushiguro.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-deck mt-4">
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIO6vbRVWP1aBpobxukQ8jTiHvassE2ZfhoQ&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Satoru Gojo</h4>
+							<p class="card-text text-muted">
+								Satoru Gojo es uno de los personajes de la serie manga Tokyo Metropolitan Curse Technical School y uno de los protagonistas de la serie secuela, Jujutsu Kaisen. Conocido con el apodo de El Chamán Más Fuerte.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB6vpuwIje1GSm45Nqgs1n3935hEOuGIi8vQ&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Panda</h4>
+							<p class="card-text text-muted">
+								Panda es uno de los personajes de la serie manga Tokyo Metropolitan Curse Technical School y su serie secuela, Jujutsu Kaisen. Es un estudiante de segundo año del Colegio Técnico de Magia Metropolitana de Tokio y compañero de Maki Zenin, Toge Inumaki y Yuta Okkotsu.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqgUUrSLbz0HdvWAw_khXA5iudb1ovrT7Fw&usqp=CAU" class="card-img-top">
+						<div class="card-body">
+							<h4 class="card-title">Aoi Todo</h4>
+							<p class="card-text text-muted">
+								Aoi Todou es uno de los personajes de la serie manga Jujutsu Kaisen. Es antiguo estudiante de Yuji Tsukumo[3] y actual estudiante de tercer año del Colegio Técnico de Magia Metropolitana de Kioto. Es un gran fanático de Takada-chan y se considera a sí mismo mejor amigo de Yuji Itadori.
+							</p>
+							<a href="#" class="btn btn-primary">View</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div id="section3">
+			<div class="container">
+				<h2 class="font-weight-bold display-4">Gekijo-ban jujutsu kaisen 0</h2>
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWcKhjkjGvQpF1CahXY5G57dCqnV_IPZK-cg&usqp=CAU" class="img-thumbnail gekijo-ban-img float-right">
+				<h4>Resumen</h4>
+				<p class="text-muted">
+					Gekijō-ban Jujutsu Kaisen 0 es una película de anime japonesa de fantasía oscura, ​ basada en el manga Jujutsu Kaisen 0, la precuela de Jujutsu Kaisen, creados por Gege Akutami. La película, producida por MAPPA y distribuida por Toho, se estrenó en Japón el 24 de diciembre de 2021
+				</p>
+				<hr>
+				<h4>Argumento</h4>
+				<p class="text-muted">
+					Yuta Okkotsu perdió a su amiga de la infancia, Rika Orimoto, en un accidente automovilístico cuando era una niña. En una promesa que hicieron, aseguraron que se casarían cuando sean mayores. Rika regresa y lo asecha como un espíritu maldito vengativo. Deseando morir, Satoru Gojo le da la bienvenida al Colegio Técnico de Magia Metropolitana de Tokio donde conoce a su compañeros Maki Zenin, Toge Inumaki y Panda. Rodeado de gente que le hace sentir que vivir está bien, Okkotsu comienza a perseguir el deseo de romper la maldición de Rika. Mientras tanto, el usuario maldito, Suguru Geto, quien persigue el sueño de crear un mundo únicamente con chamanes, aparece en el colegio de jujutsu y anuncia que el próximo 24 de diciembre daría inicio al Desfile Nocturno de los Cien Demonios. Con el plan de Geto en marcha, ¿Podrá Okkotsu detenerlo y conseguir su objetivo de liberar a Rika?
+				</p>
+			</div>
+		</div>
+
+		<div class="sep-70px"></div>
+
+		<div id="section41">
+			
+			<div class="container mt-4 mb-4">
+
+				<h2 class="font-weight-bold display-4">Contáctanos</h2>
+
+				<form class="needs-validation mx-auto mt-4 border p-4" novalidate>
+					<h4 class="font-weight-bold text-dark text-center">
+						Jujustu Kaisen
+					</h4><hr>
+
+					<div class="form-group">
+						<label for="nme">Nombre Completo: </label>
+						<input type="text" class="form-control" placeholder="Nombre" id="nme" required>
+						<div class="valid-feedback">Valid</div>
+						<div class="invalid-feedback">Invalid</div>
+					</div>
+
+					<div class="form-group">
+						<label for="eml">Email: </label>
+						<div class="input-group">
+							<input type="email" class="form-control" placeholder="Email" required>
+							<div class="input-group-append">
+								<span class="input-group-text">@example.com</span>
+							</div>
+							<div class="valid-feedback">Valid</div>
+							<div class="invalid-feedback">Invalid</div>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<textarea class="form-control txt-area" rows="10" placeholder="Mensaje..." required minlength="7"></textarea>
+						<div class="valid-feedback">Valid</div>
+						<div class="invalid-feedback">Invalid</div>
+					</div>
+
+					<button class="btn btn-dark btn-block">Enviar Mensaje</button>
+
+				</form>
+
+			</div>
+
+		</div>
+
+		<div id="section42">
+			
+			<div class="container-fluid p-4 bg-dark text-muted">
+				<div class="row">
+					<div class="col-sm-2 mb-2 d-flex flex-column">
+						<p>Contacto</p>
+						<p>Redes sociales</p>
+						<p>Acerca de</p>
+						<p>Política</p>
+						<p>Términos</p>
+					</div>
+					<div class="col-sm-3">
+						<div class="pb-4">
+							Instagram <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" style="filter: invert(100%); width: 25px;">
+						</div>
+						<div class="pb-4">
+							Facebook <img src="https://cdn-icons-png.flaticon.com/512/81/81341.png" style="filter: invert(100%); width: 25px;">
+						</div>
+						<div class="pb-4">
+							Twitter <img src="https://pngimg.com/uploads/twitter/twitter_PNG1.png" style="filter: invert(100%); width: 25px;">
+						</div>
+					</div>
+
+					<div class="col-sm-7">
+						El derecho de autor, también conocido como copyright, es un derecho exclusivo otorgado por el gobierno federal a los creadores de obras originales, como medio de protección de su obra frente a terceros, el cual tiene un límite de tiempo establecido. Esto le permite al autor ejercer sus derechos con exclusión de terceros y recibir compensación por su trabajo. Esta ley se conoce como el Copyright Act de 1976, según enmendada, 17 U.S.C. §101-et seq. Establece que una obra original de autor, es aquella que está creada en un medio tangible de expresión hasta el momento conocido o que se invente en un futuro y del cual la obra puede ser percibida, reproducida o comunicada en cualquier otra forma.
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-sm text-center">
+						2022 &copy; AlePingui
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<style type="text/css">
+		/* Navbar */
+
+		.navbar-brand {
+			display: flex;
+			align-items: center;
+		}
+		.navbar-brand img {
+			margin-right: 3px;
+			width: 30px;
+			height: 30px;
+			filter: invert(100%);
+		}
+
+		/* Carousel */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+
+		/* Card */
+		.card {
+			width: 300px;
+		}
+
+		.sep-70px {
+			margin-bottom: 70px;
+		}
+
+		/* Section 3 */
+		.gekijo-ban-img {
+			width: 60%;
+		}
+
+		/* Form */
+		.needs-validation {
+			max-width: 450px;
+		}
+
+		.txt-area {
+			resize: none;
+		}
+
+		#section3 p::selection {
+			background-color: #FFFF31;
+		}
+
+	</style>
+
+	<!-- Scripts -->
+	<script>
+
+		// Form validate
+
+		// Deshabilite el envío de formularios si hay campos no válidos
+		(function() {
+			'use strict';
+			window.addEventListener('load', function() {
+
+    			// Obtenga los formularios a los que queremos agregar estilos de validación
+    			var forms = document.getElementsByClassName('needs-validation');
+    			
+    			// Bucle sobre ellos y evitar la presentación
+    			var validation = Array.prototype.filter.call(forms, function(form) {
+    				form.addEventListener('submit', function(event) {
+    					if (form.checkValidity() === false) {
+    						event.preventDefault();
+    						event.stopPropagation();
+    					}
+    					form.classList.add('was-validated');
+    				}, false);
+    			});
+    		}, false);
+		})();
+
+		// Nav Collapse <div class="navbar-collapse collapse" id="nav-list">
+		const navigationBar = document.getElementById('nav-list');
+		const cardsDecks = document.querySelectorAll('.card-deck');
+
+		const mql575px = matchMedia("(max-width: 575px)");
+		const mql767px = matchMedia("(max-width: 767px)");
+
+		if(mql575px.matches) {
+			navigationBar.classList.add("navbar-collapse","collapse");
+		}
+
+		if(mql767px.matches) {
+			cardsDecks.forEach(crd => {crd.classList.add("d-flex","flex-column","align-items-center"); crd.classList.remove("card-deck")});
+		}
+
+		window.addEventListener("resize", event => {
+			if(mql575px.matches){
+				navigationBar.classList.add("navbar-collapse","collapse");
+			} else {
+				navigationBar.classList.remove("navbar-collapse","collapse");
+			}
+
+			if (mql767px.matches) {
+				cardsDecks.forEach(crd => {crd.classList.add("d-flex","flex-column","align-items-center"); crd.classList.remove("card-deck")});
+			} else {
+				cardsDecks.forEach(crd => {crd.classList.remove("d-flex","flex-column","align-items-center"); crd.classList.add("card-deck")});
+			}
+		})
+
+	</script>
+
+</body>
+</html>
